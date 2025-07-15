@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rettangolo rosso con bordo blu -->
+  <rect x="10" y="10" width="80" height="60" fill="red" stroke="blue" stroke-width="3"/>
+  
+  <!-- Cerchio verde con bordo nero -->
+  <circle cx="150" cy="40" r="30" fill="green" stroke="black" stroke-width="2"/>
+  
+  <!-- Ellisse gialla senza bordo -->
+  <ellipse cx="300" cy="40" rx="40" ry="25" fill="yellow" stroke="none"/>
+  
+  <!-- Linea spessa viola -->
+  <line x1="10" y1="100" x2="100" y2="150" stroke="purple" stroke-width="5"/>
+  
+  <!-- Poligono arancione con bordo scuro -->
+  <polygon points="150,100 200,120 180,170 120,170 100,120" fill="orange" stroke="darkred" stroke-width="2"/>
+  
+  <!-- Path con colori esadecimali -->
+  <path d="M 250 100 L 300 120 L 280 170 L 230 170 Z" fill="#FF6B6B" stroke="#4ECDC4" stroke-width="3"/>
+  
+  <!-- Gruppo con trasformazione e colori -->
+  <g transform="translate(50, 200)">
+    <rect x="0" y="0" width="50" height="30" fill="cyan" stroke="magenta" stroke-width="1"/>
+    <circle cx="100" cy="15" r="15" fill="pink" stroke="brown" stroke-width="2"/>
+  </g>
+  
+  <!-- Elementi con colori RGB -->
+  <rect x="200" y="200" width="60" height="40" fill="rgb(255, 165, 0)" stroke="rgb(128, 0, 128)" stroke-width="2"/>
+  
+  <!-- Elementi con trasparenza -->
+  <circle cx="320" cy="220" r="25" fill="rgba(0, 128, 255, 0.7)" stroke="rgba(255, 0, 0, 0.9)" stroke-width="3"/>
+</svg>

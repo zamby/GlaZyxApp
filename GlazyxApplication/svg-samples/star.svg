@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <!-- Stella SVG -->
+  <path d="M60,10 L72,42 L108,42 L78,66 L90,98 L60,74 L30,98 L42,66 L12,42 L48,42 Z" fill="gold" stroke="orange" stroke-width="2"/>
+</svg>

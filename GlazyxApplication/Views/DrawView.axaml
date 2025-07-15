@@ -1,0 +1,44 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:GlazyxApplication.ViewModels"
+             xmlns:cc="using:GlazyxApplication"
+             xmlns:paz="using:Avalonia.Controls.PanAndZoom"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GlazyxApplication.Views.DrawView"
+             x:DataType="vm:DrawViewModel">
+  <Design.DataContext>
+    <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+    <vm:DrawViewModel />
+  </Design.DataContext>
+
+  <Grid RowDefinitions="5,*,5" ColumnDefinitions="5,*,5">
+    <ScrollViewer Grid.Row="1" Grid.Column="1"
+                  VerticalScrollBarVisibility="Auto"
+                  HorizontalScrollBarVisibility="Auto">
+      <paz:ZoomBorder Name="ZoomBorder" Stretch="None" ZoomSpeed="1.2"
+                      Background="Gray" ClipToBounds="True" Focusable="True"
+                      VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+       
+        <cc:AreaDraw Name="AreaDraw" Width="1020" Height="620">
+          <cc:AreaDraw.ContextFlyout>
+            <MenuFlyout>
+              <MenuItem Header="Add Circle" Name="MenuAddCircle" />
+              <MenuItem Header="Add Rectangle" Name="MenuAddRectangle" />
+              <MenuItem Header="Add Star" Name="MenuAddStar" />
+              <MenuItem Header="Add Heart" Name="MenuAddSvg" />
+              <MenuItem Header="Load SVG File" Name="MenuLoadSvgFile" />
+              <Separator />
+              <MenuItem Header="Export to G-Code" Name="MenuExportGCode" />
+              <Separator />
+              <MenuItem Header="Clear All" Name="MenuClearAll" />
+            </MenuFlyout>
+          </cc:AreaDraw.ContextFlyout>
+        </cc:AreaDraw>
+
+      </paz:ZoomBorder>
+    </ScrollViewer>
+  </Grid>
+</UserControl>

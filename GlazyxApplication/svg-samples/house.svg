@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <!-- Casa SVG -->
+  <rect x="10" y="40" width="60" height="35" fill="brown" stroke="black" stroke-width="1"/>
+  <polygon points="5,40 40,5 75,40" fill="red" stroke="black" stroke-width="1"/>
+  <rect x="15" y="50" width="12" height="18" fill="blue" stroke="black" stroke-width="1"/>
+  <rect x="25" y="55" width="8" height="8" fill="yellow" stroke="black" stroke-width="1"/>
+  <rect x="50" y="55" width="8" height="13" fill="darkred" stroke="black" stroke-width="1"/>
+</svg>

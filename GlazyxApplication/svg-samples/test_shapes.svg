@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Test di vari elementi SVG -->
+  <rect x="10" y="10" width="50" height="30" fill="blue" stroke="black" stroke-width="2"/>
+  <circle cx="100" cy="50" r="25" fill="red" stroke="green" stroke-width="3"/>
+  <ellipse cx="150" cy="100" rx="30" ry="20" fill="yellow" stroke="purple" stroke-width="2"/>
+  <line x1="10" y1="100" x2="80" y2="150" stroke="orange" stroke-width="4"/>
+  <polygon points="120,120 140,120 150,140 130,160 110,160 100,140" fill="pink" stroke="brown" stroke-width="2"/>
+  <polyline points="10,180 30,160 50,180 70,160 90,180" fill="none" stroke="cyan" stroke-width="3"/>
+</svg>

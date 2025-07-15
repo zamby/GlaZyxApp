@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Test colori di base -->
+  <rect x="10" y="10" width="50" height="30" fill="red"/>
+  <rect x="70" y="10" width="50" height="30" fill="green"/>
+  <rect x="130" y="10" width="50" height="30" fill="blue"/>
+  
+  <!-- Test con stroke -->
+  <rect x="10" y="50" width="50" height="30" fill="yellow" stroke="black" stroke-width="2"/>
+  <rect x="70" y="50" width="50" height="30" fill="cyan" stroke="purple" stroke-width="3"/>
+  
+  <!-- Test cerchi -->
+  <circle cx="35" cy="110" r="20" fill="orange"/>
+  <circle cx="95" cy="110" r="20" fill="pink" stroke="brown" stroke-width="2"/>
+  <circle cx="155" cy="110" r="20" fill="none" stroke="red" stroke-width="3"/>
+</svg>
