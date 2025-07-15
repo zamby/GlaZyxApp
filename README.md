@@ -1,9 +1,6 @@
 # GlazyxApplication
 
-A desktop drawing application built with Avalonia UI framework for Windows and Linux platforms. Designed as a specialized tool for processing SVG files and creating vector graphics optimized for laser cutting and CNC machining operations.
-
-> **⚠️ Project Status: Refactored Architecture**  
-> This project has undergone significant architectural improvements while maintaining backward compatibility. The new modular architecture provides better maintainability, testability, and extensibility. See [REFACTORING_SUMMARY.md](REFACTORING_SUMMARY.md) for details.
+A desktop drawing application built with Avalonia UI framework for Windows and Linux platforms. Designed as a specialized tool for processing SVG files and creating vector graphics optimized for laser cutting and CNC machining operations. <b>This a first prototype</b>.
 
 ## Features
 
